@@ -1,16 +1,49 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SEMANTIC TABLES AND MEDIA</title>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
+    <table border="1" cellspacing="0" cellpadding="10">
+        <caption>Semantic Tables & Media</caption>
+        <thead>
+            <tr>
+                <th scope="col">Names</th>
+                <th scope="col">Roll numbers</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Sateesh</td>
+                <td>20240411</td>
+            </tr>
+            <tr>
+                <td>Bapanapalli</td>
+                <td>20240415</td>
+            </tr>
+            <tr>
+                <td>Chinna</td>
+                <td>20240420</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+
+    <h1>List of medias</h1>
+
+    <ol>
+        <li><img src=" https://picsum.photos/id/123/200/300" alt="first"></li>
+        <li>
+            <video controls width="300px" height="400px">
+                <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4">
+            </video>
+        </li>
+        <li>
+            <audio controls src="http://commondatastorage.googleapis.com/codeskulptor-assets/Epoq-Lepidoptera.ogg."></audio>
+        </li>
+    </ol>
 </body>
-
 </html>
